@@ -1,8 +1,8 @@
-import UseRef3 from './component/UseRef3'
+import UseMemoEx from './component/UseMemoEx'
 function App() {
   return (
-    <main className="container m-5">
-      <UseRef3 />
+    <main className="container mt-5">
+      <UseMemoEx />
     </main>
   );
 }
