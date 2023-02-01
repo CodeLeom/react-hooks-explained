@@ -15,9 +15,12 @@ function UseRef1() {
     <div>
       <form onSubmit={onSubmit}>
         <label htmlFor="name">Name</label>
+
         <input type="text" ref={inputRef} id='name' className="form-control mb-2" />
+
         <button type='submit' className="btn btn-primary">Submit</button>
-        <p ref={paraRef}>I am a paragraph</p>
+
+        <p id='msg' ref={paraRef}></p>
       </form>
     </div>
   )

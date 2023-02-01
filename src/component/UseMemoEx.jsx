@@ -24,7 +24,7 @@ const onClick = () => {
         <h2 className="my-3">The Sqrt of {num} is {sqrt}</h2>
 
         <button onClick={onClick} className="btn btn-primary">Re Render</button>
-
+<hr />
         <h3>Render: {render.current}</h3>
     </div>
   )

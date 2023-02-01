@@ -13,7 +13,9 @@ function UseRef2() {
   return (
     <div>
       <h1>Render: {render.current}</h1>
+
       <h3>Prev Name State: {prevName.current}</h3>
+      
       <input type="text" onChange={(e) => setName(e.target.value)} name={name} className="form-control mb-3" />
     </div>
   )
