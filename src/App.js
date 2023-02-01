@@ -1,8 +1,8 @@
-import UseCBEx from './component/UseCBEx'
+import CustomHookEx from './component/CustomHookEx'
 function App() {
   return (
     <main className="container mt-5">
-      <UseCBEx />
+      <CustomHookEx />
     </main>
   );
 }
