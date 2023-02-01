@@ -1,8 +1,8 @@
-import UseMemoEx from './component/UseMemoEx'
+import UseCBEx from './component/UseCBEx'
 function App() {
   return (
     <main className="container mt-5">
-      <UseMemoEx />
+      <UseCBEx />
     </main>
   );
 }
